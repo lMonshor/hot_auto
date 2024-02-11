@@ -9,7 +9,9 @@ import os
 import psutil
 import datetime
 
-
+users_keys = {
+    'ates2' : 'ed25519:3mrC4SM9TaJjjbsH21cGDYH6s6xqQxWj5hLZN2QH8QKNBdW5ZD45VnwgKu3jugUEGfyrm13MKFR4s1qc3f857P1w'
+}
 
 class WalletAutomation:
     def __init__(self, private_key_owner, private_key, operation):
